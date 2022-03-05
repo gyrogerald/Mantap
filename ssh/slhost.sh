@@ -14,7 +14,7 @@ cp /root/domain /etc/xray/
 
 DOMAIN=kizuma.cf
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
-SUB_DOMAIN=${sub}.akbar-store.me
+SUB_DOMAIN=${sub}.kizuma.cf
 echo "IP=""$SUB_DOMAIN" >> /var/lib/crot/ipvps.conf
 CF_ID=geraldy.olang@gmail.com
 CF_KEY=7e4beb2b60f992a15f4c65f11caa3faea0855
